@@ -1,0 +1,65 @@
+#elenco-feminino,#elenco-masculino{
+    max-width: 1200px;
+    display: grid;
+    grid-gap: 80px;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+@media screen and (min-width: 768px){
+    #elenco-feminino,
+    #elenco-masculino {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+@media screen and (min-width: 1024px){
+    #elenco-feminino,
+    #elenco-masculino {
+      grid-template-columns: repeat(6, 1fr);
+    }
+  }
+  
+
+
+#body1 {
+    background-color: black;
+    font-family:'Times New Roman', Times, serif;
+    font-size: small;
+    display: block;
+    margin: 8px;
+    color:white
+
+
+
+  }
+
+
+  #detalhes {
+    display:block;
+    background-color: black;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    font-size: larger;
+}
+#voltar {
+    background-color: grey;
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 60%;
+    font-size: 20px;
+}
+
+#body2{
+    background-color: black;
+}
+
+#elenco-feminino img,
+#elenco-masculino img {
+    display: block;
+    border: 3px solid grey;
+    border-radius: 72px;
+}
+
+.tam_fonte{
+    font-size: 75px;
+}
